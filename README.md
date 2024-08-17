@@ -1,2 +1,2 @@
 # site de suplementos
- site para loja
+ Site para Loja de suplementos.
