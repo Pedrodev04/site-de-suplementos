@@ -65,18 +65,15 @@ body{
     margin: auto;
     overflow: hidden;
 }
-
 .carousel-container {
     position: relative;
     width: 100%;
 }
-
 .carousel-slide {
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
-
-.carousel-slide img {
+.carousel-slide img{
     width: 100%;
     flex-shrink: 0;
     border-radius: 20px;
@@ -93,11 +90,9 @@ button {
     font-size: 24px;
     z-index: 1;
 }
-
 .prev {
     left: 10px;
 }
-
 .next {
     right: 10px;
 }
@@ -209,7 +204,7 @@ button {
     font-size: 16px;
 }
 .img a{
-    text-decoration: none;
+    text-decoration: none;   
 }
 .img h3{
     border-radius: 10px;
