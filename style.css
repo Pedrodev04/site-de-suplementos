@@ -18,7 +18,7 @@ body{
     top: 0; 
     left: 0; 
     z-index: 1000; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px black;
 }
 .flex{
     display: flex;
@@ -239,6 +239,7 @@ section:nth-of-type(2){
 /* projetos */
 section:nth-of-type(5){
     background-image: url(imagem\ academia.jpg);
+    box-shadow: 2px 2px 20px black;
 }
 section:nth-of-type(5) h1{
     color: #800000;
@@ -290,26 +291,152 @@ section:nth-of-type(5) h1{
 .projetos img:hover{
     transform: scale(1.05);
 }
+/* SECTION 8 */
+section:nth-of-type(8){
+    background-color:  rgb(212, 208, 208);
+    margin-top: 2%;
+    max-width: 1100px;
+    padding: 10px;
+}
+section:nth-of-type(8) p{
+    width: 250px;
+}
+section:nth-of-type(8) .linha-vertical{
+    height: 70px;
+}
+/* SOBRE A lOJA */
+#sobre{
+    background-color:rgba(155, 155, 155, 0.367);
+    margin-top: 5%;
+    padding: 20px;
+    box-shadow: 2px 2px 20px black;
+}
+.historia{
+    max-width: 1280px;
+}
+.sobre-h{
+    font-size: 35px;
+    color: #800000;
+}
+.historia .line-footer{
+    padding: 20px 0;
+    margin-right: 100%;
+}
+.historia .borda{
+    border-top: 2px solid #800000;
+    width: 100px;
+}
+.conteudo-historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-historia p{
+    width: 600px;
+}
+/* PORQUE SUPLEMENTAR */
+#suple{
+    background-image: url(imagem\ porque.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+}
+.porque{
+    max-width: 1280px;
+}
+#suple .line-footer{
+    padding: 20px 0;
+    margin-right: 100%;
+}
+#suple .borda{
+    border-top: 2px solid #800000;
+    width: 400px;
+}
+.conteudo-suplementos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-suplementos p{
+    width: 400px;
+}
+.conteudo-suplementos .beneficios{
+    width: 550px;
+}
+.conteudo-suplementos span{
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    padding: 1px;
+}
+/* nossa loja */
+.loja{
+    max-width: 1280px;
+}
+#nossaloja .line-footer{
+    padding: 20px 0;
+    margin-right: 100%;
+}
+#nossaloja .borda{
+    border-top: 2px solid #800000;
+    width: 200px;
+}
+.local{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.local p{
+    width: 300px;
+    margin: 20px 0px;
+}
+/* DEPOIMENTOS */
+.depoimentos{
+    max-width: 1280px;
+    margin-top: 5%;
+}
+.depoimentos .line-footer{
+    padding: 20px 0;
+    margin-right: 100%;
+}
+.depoimentos .borda{
+    border-top: 2px solid #800000;
+    width: 250px;
+}
+.conteudo-depoimentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.conteudo-depoimentos .fernanda{
+    display: flex;
+}
+.conteudo-depoimentos .fernanda img{
+    border-radius: 50%;
+}
+.conteudo-depoimentos .fernanda p{
+    width: 230px;
+    font-size: 12px;
+}
 /* rodape */
 .rodape{
-    padding-top: 2%;
+    padding-top: 10%;
 }
 .flex-rodape{
     display: flex;
 }
-/* SECTION 8 */
-    section:nth-of-type(8){
-        background-color:  rgb(212, 208, 208);
-        margin-top: 2%;
-        max-width: 1100px;
-        padding: 10px;
-    }
-    section:nth-of-type(8) p{
-        width: 250px;
-    }
-    section:nth-of-type(8) .linha-vertical{
-        height: 70px;
-    }
+.rodape-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #800000;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 15px 15px 0px 0px;
+}
 /* responsividade */
 @media screen and (max-width: 1139px){
     .flex{
