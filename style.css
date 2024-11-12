@@ -105,7 +105,6 @@ body{
 .menu-mobile .btn-fechar i{
     color: white;
     font-size: 30px;
-
 }
 .menu-mobile nav ul{
     text-align: right;
@@ -119,7 +118,7 @@ body{
     text-decoration: none;
 }
 .menu-mobile nav ul li a:hover{
-    background-color: rosybrown;
+    background-color: white;
     color: black;
 }
 .overlay-menu{
@@ -336,10 +335,6 @@ section:nth-of-type(8) .linha-vertical{
 }
 /* PORQUE SUPLEMENTAR */
 #suple{
-    background-image: url(imagem\ porque.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     padding: 50px;
 }
 .porque{
@@ -438,97 +433,202 @@ section:nth-of-type(8) .linha-vertical{
     border-radius: 15px 15px 0px 0px;
 }
 /* responsividade */
-@media screen and (max-width: 1139px){
-    .flex{
-        flex-direction: column-reverse;
+@media screen and (max-width: 1280px){
+    .abas a{
+        margin: 0px 15px 0px;
     }
+    .abas .contact{
+        margin-left: 50px; 
+    }
+    .historia{
+        max-width: 1200px;
+    }
+    .loja{
+        max-width: 1200px;
+    }
+    iframe{
+        width: 400px;
+    }
+    .depoimentos{
+        max-width: 1200px;
+    }
+}
+@media screen and (max-width: 768px){
+    .btn-abrir-menu i{
+        color: black;
+    }
+    .img-logo{
+        margin-right: 60%;
+    }
+    /* menu */
     .abas{
         display: none;
+    }
+    .sobre-h{
+        font-size: 25px;
+    }
+    /* frase de efeito */
+    .conteudo-txt{
+        margin-right: 25%;
+        width: 70%;
+    }
+    .conteudo-txt h1{
+        font-size: 40px;
+    }
+    .conteudo-txt h2{
+        font-size: 20px;
+    }
+    .conteudo-txt p{
+        font-size: 15px;
+    }
+    /* segunda section */
+    .linha-vertical {
+        height: 60px; /* Altura da linha */
+    }
+    .product-pesquisa img{
+        width: 25px;
+    }
+    .conteudo-produtos{
+        font-size: 9px;
+    }
+    /* section produtos */
+    .creatinas{
+        flex-direction: column;
+        width: 100%;
+    }
+    .conteiner{
+        padding-top: 8%;
+    }
+    .conteiner h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+    .creatinas .creatina{
+        padding: 8px 8px;
+        margin: 8px 10px; 
+        border-radius: 10px;
+    }
+    .creatinas .creatina img{
+        border-radius: 10px;
+        margin: 0px; 
+        width: 140px;
+        height: 165px;
+    }
+    .creatinas .creatina li{
+       border-radius: 10px;
     }
     /* menu mobile */
     .btn-abrir-menu{
         display: block;
     }
     /* carrosel */
-    .conteudo-carousel{
-        background-color: black;
-        border: none;
-    }
-    /* frase de efeito */
-    .conteudo-txt{
-        width: 70%;
-    }
-    /* creatinas */
-    .creatinas .img{
-        padding: 5px 5px;
-        background-color: white;
-        margin: 10px; 
-    }
-    .img img{
-        width: 150px;
-    }
-    .img .creatina-max{
-        width: 155px;
-    }
-    /* whey protein */
-    .whey-protein{
-        display: inline-block;
-        text-align: center;
-    }
-    .whey-protein .img{
-        padding: 10px 5px;
-        margin: 10px;
-        border-radius: 10px;
-        display: inline-block;
-    }
-    .whey-protein img{
-        width: 150px;
-    }
-    .whey-protein .morango{
-        width: 150px;
-    }
-    .whey-protein .chocolate{
-        width: 150px;
-    }
-    /* carrosel projetos*/
-    .projeto{
-        margin: 10px;
-        background-color: black;
-    }
     .conteudo-projetos{
-        animation: scroll 10s linear infinite;
+        animation: scroll 5s linear infinite;
     }
-    /* pre treino */
-    .pre-treino .img{
-        padding: 0;
-        margin: 0;
-        border-radius: 0; 
+    .conteudo-projetos .projeto{
+        padding: 20px 10px;
     }
-    .pre-treino .img img{
-        width: 100%;
+    .projeto img{
+        width: 100px;
+        height: 200px;
     }
-    .pre-treino .img .horus{
-        width: 70%;
+    #vendas{
+        color: white;
+        font-size: 32px;
     }
-    .pre-treino .img .rush{
-        width: 97%;
+    /* propagandas  */
+    .conteudo-produtos .product-pesquisa .p1{
+        width: 100px;
     }
-    .pre-treino .img .glutamina{
-        width: 85%;
+    /* nossa historia */
+    .conteudo-historia{
+        flex-direction: column;
     }
-    .pre-treino .img .maca-peruana{
-        width: 80%;
+    .conteudo-historia p{
+        width: 350px;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 1.0;
     }
-    .pre-treino .img .longjack{
-        width: 87%;
+    .conteudo-historia img{
+        width: 350px;
+        margin-top: 10px;
     }
-    .pre-treino .img .c4{
-        width: 82%;
+    .historia .line-footer{
+        margin-right: 60%;
     }
-    .pre-treino .img .cutter{
-        width: 70%;
+    .historia .borda{
+        width: 150px;
     }
-    .pre-treino .img .toma{
-        width: 70%;
+    /* porque */
+    .conteudo-suplementos{
+       flex-direction: column;
+    }
+    #suple{
+        padding: 20px;
+    }
+    .conteudo-suplementos p{
+        width: 350px;
+        text-align: left;
+    }
+    .conteudo-suplementos .beneficios{
+        width: 350px;
+    }
+    #suple .borda{
+        width: 200px;
+    }
+    #suple .line-footer{
+        margin-right: 45%;
+    }
+    /* nossa loja */
+    .loja{
+        margin-left: 20px;
+    }
+    .local{
+      flex-direction: column;
+    }
+    .local iframe{
+        width: 280px;
+        height: 300px;
+    }
+    .local .locale{
+        display: none;
+    }
+    #nossaloja .line-footer{
+        margin-right: 50%;
+    }
+    /* depoimentos */
+    .conteudo-depoimentos{
+        flex-direction: column;
+    }
+    .depoimentos{
+        margin-left: 5%;
+    }
+    .conteudo-depoimentos .fernanda{
+        margin: 10px;
+    }
+    .conteudo-depoimentos .fernanda img{
+        margin-right: 10px;
+    }
+    .depoimentos .line-footer{
+        margin-right: 50%;
+    }
+    .depoimentos .borda{
+        width: 200px;
+    }
+    /* rodape */
+    .rodape{
+        padding-top: 5%;
+    }
+    .rodape-logo{
+       font-size: 8px;
+       text-align: center;
+    }
+    .rodape-logo img{
+        width: 100px;
     }
 }
